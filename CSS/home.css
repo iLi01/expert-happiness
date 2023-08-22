@@ -1,0 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#small_button {
+  font-size: 2rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(238, 234, 229);
+  box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 0.196);
+  font-weight: 800;
+  color: rgb(141, 141, 141);
+  transition: background-color 0.5s ease-in 0.2s, transform 250ms;
+}
+
+#small_button:hover {
+  background-color: rgb(177, 255, 255);
+  transform: translateY(+10px);
+}
+
+/* 
+.practice_grid {
+  display: grid;
+  width: 100%;
+  height: 250px;
+  gap: 0.6rem;
+  grid-template-areas: 
+    'one one two three three'
+    'four five five five six';
+  grid-template-columns: repeat (5,1fr);
+  grid-template-rows: 50% 50%;
+}
+
+#first_grid {
+  grid-area: one;
+  background-color: red;
+}
+
+#second_grid {
+  grid-area: two;
+  background-color: blue;
+}
+
+#third_grid {
+  grid-column: three;
+  background-color: greenyellow;
+}
+
+#fourth_grid {
+  grid-column: four;
+  background-color: rgb(98, 52, 98);
+}
+
+#fifth_grid {
+  grid-area: five;
+  background-color: pink;
+}
+
+#sixth_grid {
+  grid-area: six;
+  background-color: white;
+} */
