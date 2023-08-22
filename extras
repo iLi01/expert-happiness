@@ -1,0 +1,107 @@
+/* #nav_bar {
+  z-index: 1000;
+  width: 6.2em;
+  height: 85vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem;
+  position: fixed;
+  top: 7%;
+  bottom: 7%;
+  left: 0%;
+  right: auto;
+  border-top-right-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+} */
+
+/* #small_button {
+  width: 15rem;
+  font-size: 2rem;
+  border: none;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  background-color: rgb(238, 234, 229);
+  box-shadow: 0.2rem 0.2rem 10px rgba(0, 0, 0, 0.196);
+  font-weight: 800;
+  color: rgb(141, 141, 141);
+  transition: margin-left 1s ease-in-out;
+}
+
+#small_button:hover {
+  background-color: rgb(177, 255, 255);
+  margin-left: 1.3rem;
+} */
+
+
+/* <!-- <button type="submit" id="small_button">AUCH</button>
+
+<div class="practice_grid">
+  <div id="first_grid">RED</div>
+  <div id="second_grid">BLUE</div>
+  <div id="third_grid">GREEN</div>
+  <div id="fourth_grid">PURPLE</div>
+  <div id="fifth_grid">PINK</div>
+  <div id="sixth_grid">WHITE</div>
+</div>
+--> */
+
+/* 
+.practice_grid {
+  display: grid;
+  width: 100%;
+  height: 250px;
+  gap: 0.6rem;
+  grid-template-areas: 
+    'one one two three three'
+    'four five five five six';
+  grid-template-columns: repeat (5,1fr);
+  grid-template-rows: 50% 50%;
+}
+
+#first_grid {
+  grid-area: one;
+  background-color: red;
+}
+
+#second_grid {
+  grid-area: two;
+  background-color: blue;
+}
+
+#third_grid {
+  grid-column: three;
+  background-color: greenyellow;
+}
+
+#fourth_grid {
+  grid-column: four;
+  background-color: rgb(98, 52, 98);
+}
+
+#fifth_grid {
+  grid-area: five;
+  background-color: pink;
+}
+
+#sixth_grid {
+  grid-area: six;
+  background-color: white;
+} */
+
+
+
+/* html - 
+
+<section id="nav_bar">
+<ul class="nav_list">
+  <li><a href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Projects</a></li>
+  <li><a href="#">Illustrations</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</section> */
